@@ -1,0 +1,46 @@
+@import "../../assets/palette.less";
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+
+    .controlls {
+        min-width: 300px;
+    }
+
+    .save-btn {
+        position: relative;
+        top: -35px;
+        left: -135px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        background-color: @main;
+    }
+
+    .show-btn {
+        position: relative;
+        top: -35px;
+        left: -120px;
+        border: 1px solid grey;
+        border-radius: 3px;
+        background-color: @violet;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        width: 100px;
+        height: 30px;
+        background: @violet;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 3px;
+    }
+
+    ul li:hover {
+        cursor: pointer;
+    }
+}
